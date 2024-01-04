@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="4dp"
+    android:layout_marginStart="8dp"
+    android:layout_marginEnd="8dp"
+    android:background="#f4f4f4"
+    android:paddingTop="8dp"
+    android:elevation="4dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:padding="4dp">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/comment_user_img"
+            android:layout_width="42dp"
+            android:layout_height="42dp"
+            tools:srcCompat="@tools:sample/avatars" />
+
+        <TextView
+            android:id="@+id/comment_date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:text="00:00"
+            android:textSize="12sp"
+            />
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_weight="1">
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:orientation="vertical"
+                android:layout_weight="1">
+
+                <TextView
+                    android:id="@+id/comment_username"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginTop="8dp"
+                    android:maxLines="3"
+                    android:text="TextView"
+                    android:textSize="15sp"
+                    android:textColor="#969595"
+                    android:textStyle="bold"
+                    app:layout_constraintStart_toEndOf="@+id/comment_user_img"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <TextView
+                    android:id="@+id/comment_content"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginEnd="8dp"
+                    android:layout_marginBottom="8dp"
+                    android:text="Text Comment Goes Here"
+                    android:textColor="#969595"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.0"
+                    app:layout_constraintStart_toEndOf="@+id/comment_user_img"
+                    app:layout_constraintTop_toBottomOf="@+id/comment_username"
+                    app:layout_constraintVertical_bias="0.0" />
+
+            </LinearLayout>
+
+            <ImageView
+                android:id="@+id/btnDelete"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_gravity="center"
+                android:src="@drawable/ic_delete" />
+
+
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+
+
+</androidx.cardview.widget.CardView>

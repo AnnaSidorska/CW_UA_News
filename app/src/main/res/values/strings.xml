@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">UA News</string>
+    <string name="create_account">Create account</string>
+    <string name="enter_e_mail">Enter E-Mail</string>
+    <string name="enter_password">Enter password</string>
+    <string name="name">Name</string>
+    <string name="sign_up">Sign up</string>
+    <string name="sign_in">Sign in</string>
+    <string name="don_t_have_an_account_sign_up">Don\'t have an account? Sign up</string>
+    <string name="already_have_an_account_sign_in">Already have an account? Sign in</string>
+    <string name="hello_sing_in">Hello! Sing in!</string>
+    <string name="news">News</string>
+    <string name="category">Category</string>
+    <string name="e_mail">E-mail</string>
+    <string name="forgot_password">Forgot password?</string>
+    <string name="title_activity_menu_navigation">MenuNavigation</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="apply_changes">Apply changes</string>
+    <string name="profile">Profile</string>
+    <string name="enter_name">Enter name</string>
+    <string name="enter_email">Enter email</string>
+    <string name="save_changes">Save changes</string>
+    <string name="science">SCIENCE</string>
+    <string name="entertainment">ENTERTAINMENT</string>
+    <string name="health">HEALTH</string>
+    <string name="technology">TECHNOLOGY</string>
+    <string name="sports">SPORTS</string>
+    <string name="business">BUSINESS</string>
+    <string name="general">GENERAL</string>
+    <string name="confirm_password">Confirm password</string>
+    <string name="user_name">User name</string>
+    <string name="user_email">User email</string>
+    <string name="write_comment">Write comment</string>
+    <string name="write_message">Write message</string>
+    <string name="add">Add</string>
+</resources>
